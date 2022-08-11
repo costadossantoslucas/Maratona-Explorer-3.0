@@ -1,82 +1,82 @@
 /*Global*/
 *{
-    margin: 0;
-    padding: 0;
-  }
-  body{
-    background-color: #FFEDD5;
-    font-family: 'Roboto', sans-serif;
-  }
-  ul{
-    list-style: none;
-  }
-  
-  /* Fonts */
-  h1, h2, h3, .price{
-    font-family: 'Roboto Serif', serif;
-    text-transform: uppercase;
-    color: #2D2C2A;
-  }
-  
-  /*HEADER*/
-  header{
-    padding: 32px;
-    text-align: center;
-  }
-  header, section{
-    max-width: 300px;
-    margin: 0 auto;
-  }
-  header h1 span{
-    color: #995000
-  }
-  header h1{
-    margin-bottom: 4px;
-    font-size: 28px;
-    font-size: 33px;
-  }
-  header p{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-  
-  color: rgba(0, 0, 0, 0.7);
-  }
-  
-  /*SECTION*/
-  section{
-    margin-bottom: 24px;
-  }
-  
-  section h2{
-    background-color: #FED7AA;
-    padding: 8px 16px;
-    text-align: center;
-    margin-bottom: 24px;
-    font-size: 18px;
-  }
-  
-  /*lista*/
-  ul li{
-    margin-bottom: 16px;
-    display: flex;
-  }
-  li .details {
-  max-width: 240px;
-  }
-  .details h3{
-    margin-bottom: 8px;
-    font-size: 16px;
-    line-height: 16px;
-  }
-  
-  .details p {
-    color: rgba(0,0,0,0.6);
-    font-size: 14px;
-    line-height: 21px;
-  }
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #FFEDD5;
+  font-family: 'Roboto', sans-serif;
+}
+ul{
+  list-style: none;
+}
 
-  footer{
-    text-align: center;
-    font-size: 13px;
-  }
+/* Fonts */
+h1, h2, h3, .price{
+  font-family: 'Roboto Serif', serif;
+  text-transform: uppercase;
+  color: #2D2C2A;
+}
+
+/*HEADER*/
+header{
+  padding: 32px;
+  text-align: center;
+}
+header, section{
+  max-width: 300px;
+  margin: 0 auto;
+}
+header h1 span{
+  color: #995000
+}
+header h1{
+  margin-bottom: 4px;
+  font-size: 28px;
+  font-size: 33px;
+}
+header p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/*SECTION*/
+section{
+  margin-bottom: 24px;
+}
+
+section h2{
+  background-color: #FED7AA;
+  padding: 8px 16px;
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+/*lista*/
+ul li{
+  margin-bottom: 16px;
+  display: flex;
+}
+li .details {
+max-width: 240px;
+}
+.details h3{
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.details p {
+  color: rgba(0,0,0,0.6);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#rodape{
+  text-align: center;
+  font-size: 13px;
+  padding: 50px;
+}
